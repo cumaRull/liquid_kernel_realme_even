@@ -139,7 +139,6 @@ static void inotify_fdinfo(struct seq_file *m, struct fsnotify_mark *mark)
  		iput(inode);
  	}
  }
-
 void inotify_show_fdinfo(struct seq_file *m, struct file *f)
 {
 	show_fdinfo(m, f, inotify_fdinfo);
