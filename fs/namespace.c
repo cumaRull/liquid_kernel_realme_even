@@ -31,7 +31,6 @@
 #include <linux/susfs_def.h>
 #endif
 
-#include <linux/fslog.h>
 
 #include "pnode.h"
 #include "internal.h"
