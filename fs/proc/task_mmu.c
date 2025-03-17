@@ -25,7 +25,7 @@
 #endif
 
 #include <linux/ctype.h>
-#include <linux/io_record.h>
+
 #include <linux/freezer.h>
 
 
